@@ -28,7 +28,7 @@ def PlotClusters(clusters):
 
     for x in X:
         #Choose color randomly from list, then remove it
-        #(to avoid duplicates)
+        #to avoid duplicates
         c = choice(colors);
         colors.remove(c);
 
